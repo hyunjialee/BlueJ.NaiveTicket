@@ -9,6 +9,17 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
+
+
+/*public class Student {
+    var = x
+}
+
+public class LabClass {
+    var = y
+}
+*/
+
 public class TicketMachine
 {
     // The price of a ticket from this machine.
@@ -32,7 +43,12 @@ public class TicketMachine
         total = 0;
         ticketNumber = 0;
     }
-
+    
+    /*private int count; (interger)
+    private Student representative; (string)
+    private Server host; (string)
+    */
+    
     /**
      * Return the price of a ticket.
      */
@@ -96,3 +112,5 @@ public class TicketMachine
         return "Ticket price: " + price + " cents. " + "Your total is " + total + ".";
     }
 }
+
+
